@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+
+
+  
+  <ItemGroup>
+    <PackageReference Include="MudBlazor" Version="6.19.1" />
+  </ItemGroup>
+
+  
+  
+	<ItemGroup>
+		<ProjectReference Include="..\ERP-LecturersMangement\ERP-LecturersMangement.csproj" />
+		<ProjectReference Include="..\ERP-ModuleManagement\ERP-ModuleManagement.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\ERP-StudentManagement\ERP-StudentManagement.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ERP-GraduateManagement\ERP-GraduateManagement.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ERP-LabEquipmentManagement\ERP-LabEquipmentManagement.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+
+		<ProjectReference Include="..\Lib\ERP-StudentRegistration\ERP-StudentRegistration.csproj" />
+	</ItemGroup>
+
+
+
+
+</Project>
